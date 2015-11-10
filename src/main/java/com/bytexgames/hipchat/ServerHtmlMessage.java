@@ -15,6 +15,11 @@ public class ServerHtmlMessage extends HtmlMessage {
 
 	public static final String UNKNOWN_HOST = "unknown";
 
+	public ServerHtmlMessage(String message) {
+		super();
+		setMessage(message);
+	}
+
 	@Override
 	public void setMessage(String message) {
 		String hostAddress;
