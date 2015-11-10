@@ -12,4 +12,10 @@ public class TextMessage extends Message {
 	public TextMessage() {
 		setMessageFormat(MessageFormat.TEXT);
 	}
+
+	public TextMessage(String message) {
+		setMessageFormat(MessageFormat.TEXT);
+		setMessage(message);
+	}
+
 }
