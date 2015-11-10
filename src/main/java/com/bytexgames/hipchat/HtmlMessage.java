@@ -12,4 +12,9 @@ public class HtmlMessage extends Message {
 	public HtmlMessage() {
 		setMessageFormat(MessageFormat.HTML);
 	}
+
+	public HtmlMessage(String message) {
+		setMessageFormat(MessageFormat.HTML);
+		setMessage(message);
+	}
 }
